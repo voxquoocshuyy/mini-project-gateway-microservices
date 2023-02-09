@@ -4,6 +4,52 @@
         <name>mini-project-api</name>
     </assembly>
     <members>
+        <member name="T:mini_project_api.Configurations.SwaggerConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:mini_project_api.Configurations.SwaggerConfig.RegisterSwaggerModule(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:mini_project_api.Configurations.SwaggerConfig.UseApplicationSwagger(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <returns></returns>
+        </member>
+        <member name="T:mini_project_api.Controllers.RedisController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:mini_project_api.Controllers.RedisController.#ctor(Microsoft.Extensions.Caching.Distributed.IDistributedCache)">
+            <summary>
+            
+            </summary>
+            <param name="distributedCache"></param>
+        </member>
+        <member name="M:mini_project_api.Controllers.RedisController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:mini_project_api.Controllers.UserController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:mini_project_api.Controllers.UserController.#ctor(mini_project_business.Services.UserServices.IUserService)">
+            <summary>
+            
+            </summary>
+            <param name="userService"></param>
+        </member>
         <member name="M:mini_project_api.Controllers.UserController.Login(mini_project_business.ViewModels.Users.LoginModel)">
             <summary>
             [USER] Endpoint for user login.
@@ -12,6 +58,17 @@
             <returns>A user within status 200 or 204 status.</returns>
             <response code="200">Returns 200 status</response>
             <response code="204">Returns NoContent status</response>
+        </member>
+        <member name="T:mini_project_api.Controllers.WeatherController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:mini_project_api.Controllers.WeatherController.#ctor(mini_project_business.Services.WeatherServices.IWeatherService)">
+            <summary>
+            
+            </summary>
+            <param name="weatherService"></param>
         </member>
         <member name="M:mini_project_api.Controllers.WeatherController.GetAllWeather(mini_project_business.ViewModels.Weathers.SearchWeatherModel)">
             <summary>

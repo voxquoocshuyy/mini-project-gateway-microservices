@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 using mini_project_business.Services.UserServices;
 using mini_project_business.ViewModels;
 using mini_project_business.ViewModels.Users;
-using mini_project_business.ViewModels.Weathers;
-using mini_project_data.Entities;
-using Swashbuckle.AspNetCore.Annotations;
 
 namespace mini_project_api.Controllers;
+/// <summary>
+/// 
+/// </summary>
 [ApiController]
 [ApiVersion("1.0")]
 [Route("api/v{version:apiVersion}/users")]
@@ -15,6 +15,10 @@ public class UserController : ControllerBase
 {
     private readonly IUserService _userService;
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="userService"></param>
     public UserController(IUserService userService)
     {
         _userService = userService;
@@ -41,7 +45,7 @@ public class UserController : ControllerBase
                 {
                     Code = StatusCodes.Status400BadRequest,
                     Data = response.Result,
-                    Msg = "Use API login success!"
+                    Msg = "Use API login fail!"
                 });
             }
             return Ok(new ModelResponseLogin

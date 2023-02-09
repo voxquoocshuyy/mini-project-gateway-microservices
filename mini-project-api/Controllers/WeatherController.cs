@@ -5,6 +5,9 @@ using mini_project_business.ViewModels;
 using mini_project_business.ViewModels.Weathers;
 
 namespace mini_project_api.Controllers;
+/// <summary>
+/// 
+/// </summary>
 [ApiController]
 [ApiVersion("1.0")]
 [Route("api/v{version:apiVersion}/weathers")]
@@ -12,6 +15,10 @@ public class WeatherController : ControllerBase
 {
     private readonly IWeatherService _weatherService;
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="weatherService"></param>
     public WeatherController(IWeatherService weatherService)
     {
         _weatherService = weatherService;

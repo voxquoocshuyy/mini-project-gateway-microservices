@@ -21,6 +21,13 @@ builder.Services.AddControllers().AddNewtonsoftJson(o =>
     });
 
 });
+//add redis
+//This method gets called by the runtime. Use this method to add services to the container.
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = "localhost";
+    options.InstanceName = "SampleInstance";
+});   
 //add authentication in register
 builder.Services.RegisterSecurityModule(builder.Configuration);
 //add swagger configuration

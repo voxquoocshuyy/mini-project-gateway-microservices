@@ -86,3 +86,8 @@
 /Users/quochuy/Study/ASP.NET/mini-project/mini-project-api/bin/Debug/net7.0/Swashbuckle.AspNetCore.Annotations.dll
 /Users/quochuy/Study/ASP.NET/mini-project/mini-project-api/bin/Debug/net7.0/mini-project-api.xml
 /Users/quochuy/Study/ASP.NET/mini-project/mini-project-api/obj/Debug/net7.0/mini-project-api.xml
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-api/bin/Debug/net7.0/Microsoft.Extensions.Caching.StackExchangeRedis.dll
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-api/bin/Debug/net7.0/Pipelines.Sockets.Unofficial.dll
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-api/bin/Debug/net7.0/StackExchange.Redis.dll
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-api/bin/Debug/net7.0/System.Diagnostics.PerformanceCounter.dll
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-api/bin/Debug/net7.0/runtimes/win/lib/netcoreapp2.0/System.Diagnostics.PerformanceCounter.dll

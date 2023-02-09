@@ -5,8 +5,15 @@ using Microsoft.OpenApi.Models;
 
 namespace mini_project_api.Configurations;
 
+/// <summary>
+/// 
+/// </summary>
 public static class SwaggerConfig
 {
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="services"></param>
     public static void RegisterSwaggerModule(this IServiceCollection services)
     {
         services.AddApiVersioning(x =>
@@ -63,6 +70,11 @@ public static class SwaggerConfig
         // return services;
     }
     
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="app"></param>
+    /// <returns></returns>
     public static IApplicationBuilder UseApplicationSwagger(this IApplicationBuilder app)
     {
         app.UseSwagger(c =>
