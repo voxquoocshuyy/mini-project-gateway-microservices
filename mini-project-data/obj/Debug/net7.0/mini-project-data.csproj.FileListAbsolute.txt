@@ -1,0 +1,14 @@
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-data/bin/Debug/net7.0/mini-project-data.deps.json
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-data/bin/Debug/net7.0/mini-project-data.dll
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-data/bin/Debug/net7.0/mini-project-data.pdb
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-data/obj/Debug/net7.0/mini-project-data.csproj.AssemblyReference.cache
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-data/obj/Debug/net7.0/mini-project-data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-data/obj/Debug/net7.0/mini-project-data.AssemblyInfoInputs.cache
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-data/obj/Debug/net7.0/mini-project-data.AssemblyInfo.cs
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-data/obj/Debug/net7.0/mini-project-data.csproj.CoreCompileInputs.cache
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-data/obj/Debug/net7.0/mini-project-data.dll
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-data/obj/Debug/net7.0/refint/mini-project-data.dll
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-data/obj/Debug/net7.0/mini-project-data.pdb
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-data/obj/Debug/net7.0/ref/mini-project-data.dll
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-data/bin/Debug/net7.0/mini-project-data.runtimeconfig.json
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-data/obj/Debug/net7.0/mini-project-data.genruntimeconfig.cache

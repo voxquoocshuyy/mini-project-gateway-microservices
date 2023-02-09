@@ -1,0 +1,15 @@
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-business/bin/Debug/net7.0/mini-project-business.deps.json
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-business/bin/Debug/net7.0/mini-project-business.dll
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-business/bin/Debug/net7.0/mini-project-business.pdb
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-business/bin/Debug/net7.0/mini-project-data.dll
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-business/bin/Debug/net7.0/mini-project-data.pdb
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-business/obj/Debug/net7.0/mini-project-business.csproj.AssemblyReference.cache
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-business/obj/Debug/net7.0/mini-project-business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-business/obj/Debug/net7.0/mini-project-business.AssemblyInfoInputs.cache
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-business/obj/Debug/net7.0/mini-project-business.AssemblyInfo.cs
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-business/obj/Debug/net7.0/mini-project-business.csproj.CoreCompileInputs.cache
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-business/obj/Debug/net7.0/mini-project-business.csproj.CopyComplete
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-business/obj/Debug/net7.0/mini-project-business.dll
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-business/obj/Debug/net7.0/refint/mini-project-business.dll
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-business/obj/Debug/net7.0/mini-project-business.pdb
+/Users/quochuy/Study/ASP.NET/mini-project/mini-project-business/obj/Debug/net7.0/ref/mini-project-business.dll
