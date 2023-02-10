@@ -35,6 +35,7 @@ builder.Services.RegisterSwaggerModule();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.RegisterData();
 builder.Services.RegisterBusiness();
+builder.Services.AddMemoryCache();
 
 var app = builder.Build();
 

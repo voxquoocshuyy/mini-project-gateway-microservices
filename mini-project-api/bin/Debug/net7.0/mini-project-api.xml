@@ -27,16 +27,25 @@
             
             </summary>
         </member>
-        <member name="M:mini_project_api.Controllers.RedisController.#ctor(Microsoft.Extensions.Caching.Distributed.IDistributedCache)">
+        <member name="M:mini_project_api.Controllers.RedisController.#ctor(Microsoft.Extensions.Caching.Distributed.IDistributedCache,mini_project_business.Services.WeatherServices.IWeatherService,Microsoft.Extensions.Caching.Memory.IMemoryCache)">
             <summary>
             
             </summary>
             <param name="distributedCache"></param>
+            <param name="weatherService"></param>
+            <param name="memoryCache"></param>
         </member>
         <member name="M:mini_project_api.Controllers.RedisController.Get">
             <summary>
             
             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:mini_project_api.Controllers.RedisController.GetWeatherWithCache(mini_project_business.ViewModels.Weathers.SearchWeatherModel)">
+            <summary>
+            
+            </summary>
+            <param name="searchWeatherModel"></param>
             <returns></returns>
         </member>
         <member name="T:mini_project_api.Controllers.UserController">
@@ -64,11 +73,12 @@
             
             </summary>
         </member>
-        <member name="M:mini_project_api.Controllers.WeatherController.#ctor(mini_project_business.Services.WeatherServices.IWeatherService)">
+        <member name="M:mini_project_api.Controllers.WeatherController.#ctor(mini_project_business.Services.WeatherServices.IWeatherService,Microsoft.Extensions.Caching.Memory.IMemoryCache)">
             <summary>
             
             </summary>
             <param name="weatherService"></param>
+            <param name="memoryCache"></param>
         </member>
         <member name="M:mini_project_api.Controllers.WeatherController.GetAllWeather(mini_project_business.ViewModels.Weathers.SearchWeatherModel)">
             <summary>

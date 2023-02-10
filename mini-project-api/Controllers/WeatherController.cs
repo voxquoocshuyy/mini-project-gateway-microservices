@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
 using mini_project_business.Services.WeatherServices;
 using mini_project_business.ViewModels;
 using mini_project_business.ViewModels.Weathers;
@@ -14,14 +15,17 @@ namespace mini_project_api.Controllers;
 public class WeatherController : ControllerBase
 {
     private readonly IWeatherService _weatherService;
+    private readonly IMemoryCache _memoryCache;
 
     /// <summary>
     /// 
     /// </summary>
     /// <param name="weatherService"></param>
-    public WeatherController(IWeatherService weatherService)
+    /// <param name="memoryCache"></param>
+    public WeatherController(IWeatherService weatherService, IMemoryCache memoryCache)
     {
         _weatherService = weatherService;
+        _memoryCache = memoryCache;
     }
     /// <summary>
     /// [USER] Endpoint for get all weather with condition
@@ -41,7 +45,11 @@ public class WeatherController : ControllerBase
         {
             return NoContent();
         }
-
+        if(!_memoryCache.TryGetValue(searchWeatherModel, out result!))
+        {
+            result = _weatherService.GetWeatherPage(searchWeatherModel);
+            _memoryCache.Set(searchWeatherModel, result);
+        }    
         return Ok(new ModelsResponse<GetWeatherDetailModel>()
         {
             Code = StatusCodes.Status200OK,
