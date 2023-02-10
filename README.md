@@ -1,5 +1,4 @@
 # Welcome to my project repository
-# mini-project-gateway-microservices
 ## *_You will find in this repo the following stuff:_*
 ### Author
 Vo Quoc Huy
