@@ -21,11 +21,12 @@ public class WeatherService : IWeatherService
         IQueryable<Weather> queryWeather = _weatherRepository.GetAll();
         if (searchWeatherModel.City != "")
         {
-            queryWeather = queryWeather.Where(x => x.City == searchWeatherModel.City);
+            queryWeather = queryWeather.Where(x => x.City.Contains(searchWeatherModel.City));
         }
         if(searchWeatherModel.Temperature != null)
         {
-            queryWeather = queryWeather.Where(x => x.Temperature == searchWeatherModel.Temperature);
+            queryWeather = queryWeather.Where(x => x.Temperature >= searchWeatherModel.Temperature + 1 
+                                                   || x.Temperature <= searchWeatherModel.Temperature);
         }
         var result = _mapper.ProjectTo<GetWeatherDetailModel>(queryWeather);
         return result.ToList();
