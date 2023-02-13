@@ -128,5 +128,10 @@
             <response code="200">Returns 200 status</response>
             <response code="204">Returns NoContent status</response>
         </member>
+        <member name="T:mini_project_api.Kafka.Program">
+            <summary>
+            
+            </summary>
+        </member>
     </members>
 </doc>
