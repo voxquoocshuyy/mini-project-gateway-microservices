@@ -9,7 +9,7 @@ namespace mini_project_business.Utilities;
 
 public interface IJwtHelper
 {
-    string generateJwtToken(User user, Role role, int id);
+    string GenerateJwtToken(User user, Role role, int id);
 }
 public class JwtHelper : IJwtHelper
 {
@@ -20,13 +20,13 @@ public class JwtHelper : IJwtHelper
         _config = config;
     }
 
-    public string generateJwtToken(User user, Role role, int id)
+    public string GenerateJwtToken(User user, Role role, int id)
     {
         // security key
-        string securityKey = _config["JWT:Key"];
+        string? securityKey = _config["JWT:Key"];
 
         // symmetric security key
-        var symmetricSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(securityKey));
+        var symmetricSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(securityKey!));
 
         // signing credentials
         var signingCredentials = new SigningCredentials(symmetricSecurityKey, SecurityAlgorithms.HmacSha256Signature);

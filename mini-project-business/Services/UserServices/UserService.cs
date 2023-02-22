@@ -26,6 +26,6 @@ public class UserService : IUserService
             return "Phone or password not correct";
         }
         var role = await _roleRepository.GetFirstOrDefaultAsync(r => r.Id == user.RoleId);
-        return _jwtHelper.generateJwtToken(user, role, user.Id);
+        return _jwtHelper.GenerateJwtToken(user, role, user.Id);
     }
 }
